@@ -1,0 +1,43 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <style>
+      body {
+        font-family: sans-serif;
+        background-color: aliceblue;
+      }
+      .loop1 {
+        background-color: lightblue;
+        text-align: center;
+      }
+      button {
+        margin-top: 10px;
+      }
+    </style>
+    <title>loop</title>
+  </head>
+  <body>
+    <div class="loop1">
+      <h1>LOOPING NAIK</h1>
+      <h2>Masukan Nilai Awal</h2>
+      <input type="number" id="n1" />
+      <h2>Masukan Nilai Akhir</h2>
+      <input type="number" id="n2" /><br />
+      <button onclick="loop()">Kirim</button>
+      <p id="t"></p>
+    </div>
+
+    <div class="loop1">
+      <h1>LOOPING TURUN</h1>
+      <h2>Masukan Nilai Awal</h2>
+      <input type="number" id="nl1" />
+      <h2>Masukan Nilai Akhir</h2>
+      <input type="number" id="nl2" /><br />
+      <button onclick="loop2()">Kirim</button>
+      <p id="r"></p>
+    </div>
+    <script src="loop.js"></script>
+  </body>
+</html>
